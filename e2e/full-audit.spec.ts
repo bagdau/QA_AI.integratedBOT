@@ -4,8 +4,8 @@ import path from 'path';
 
 const axeSource = fs.readFileSync(require.resolve('axe-core/axe.min.js'), 'utf8');
 
-const PHONE = '77777777777';
-const PASSWORD = 'admin123';
+const PHONE = 'YOUR_PHONE_NUMBER';
+const PASSWORD = 'YOUR_PASSWORD';
 
 const protectedPages = [
   'https://juie.amanbay.info/ru/',
